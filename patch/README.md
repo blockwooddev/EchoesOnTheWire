@@ -1,6 +1,4 @@
-# Echoes on the Wire
-
-This project was for the WAKE art show at Ship In The Woods gallery. 
+## The Patch: 
 
 ### main.pd
 
@@ -19,8 +17,8 @@ For all other playback options, any number dialed that doesn't trigger that spec
 This handles playback of the recorded audio samples mixed with a dial tone. I played around with a few combinations of dial tones and filters for this part of the patch, and settled on a few things: 
 
 * I decided to play multiple clips at the same time, but with one clip in the forefront to give the impression of a multitude of ghostly speakers going back through time. 
-* I mixed the dial tone in like a tone would be used in a ring modulator to distort the voices and give the impression that they were coming out of the dial tone. 
-* Finally I wanted something to really give it that otherworldly feel, so I made something a little like the sound of an old radio tuned to dead frequency or a ghostly wind out of a moving bandpass filter and some white noise. The white noise was added to the sound after the bandpass filter, to make things just a little dirtier. 
+* I mixed the dial tone in like a tone would be used in a ring modulator to distort the voices and give the impression that they were emerging from the dial tone. 
+* Finally I wanted something to really give it that otherworldly feel, so I made something that sounded to me like an old radio transceiver or a ghostly wind out of a moving bandpass filter and some white noise. The white noise was added to the sound after the bandpass filter, to make the voices less clear... more 'ghostly'
 
 ### special_sound_out.pd
 
@@ -30,4 +28,4 @@ The main difference between this and the regular sound_out is that it was design
 This was designed to record audio files when it got the 'on' bang. It uses a counter to specify which file is being recorded, and records a maximum of 20 files. Once that number is reached the reset is sent and it starts recording over the first file recorded.
 
 ### The End
-Thank you for reading! Thank you to Jason Alderman for his invaluable input in the beginning of the project, and Kyle Stewart for handling the electronics of the rotary phone with aplomb. If you would like to use this patch or are going to use these ideas, please credit me or Kyle (whoever's work you are using) and reference this project.
+Thank you for reading! Thank you to Jason Alderman for his invaluable input in the beginning of the project, and Kyle Stewart for handling the electronics of the rotary phone with aplomb. If you would like to use this patch or are going to use these ideas, please credit me and/or Kyle (whoever's work you are using) and reference this project.
