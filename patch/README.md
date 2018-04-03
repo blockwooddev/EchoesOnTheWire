@@ -19,10 +19,11 @@ This handles playback of the recorded audio samples mixed with a dial tone. I pl
 * I decided to play multiple clips at the same time, but with one clip in the forefront to give the impression of a multitude of ghostly speakers going back through time. 
 * I mixed the dial tone in like a tone would be used in a ring modulator to distort the voices and give the impression that they were emerging from the dial tone. 
 * Finally I wanted something to really give it that otherworldly feel, so I made something that sounded to me like an old radio transceiver or a ghostly wind out of a moving bandpass filter and some white noise. The white noise was added to the sound after the bandpass filter, to make the voices less clear... more 'ghostly'
+Here is an example of what a person hears when the phone is off the hook: [off hook](./example-off-hook.wav)
 
 ### special_sound_out.pd
 
-The main difference between this and the regular sound_out is that it was designed to work with the clips that were pre-loaded. I used soundfiler to load the audio file into a table and then did the same filter on it while it was playing.
+The main difference between this and the regular sound_out is that it was designed to work with the clips that were pre-loaded. I used soundfiler to load the audio file into a table and then did the same filter on it while it was playing. Here are some examples of this in action: [1](./example_exotica1.wav) [2](./example_exotica2.wav) [3](./example_radio1.wav)[4](./example_radio2.wav) [5](./example_eagle_landed.wav)
 
 ### sound_in.pd
 This was designed to record audio files when it got the 'on' bang. It uses a counter to specify which file is being recorded, and records a maximum of 20 files. Once that number is reached the reset is sent and it starts recording over the first file recorded.
