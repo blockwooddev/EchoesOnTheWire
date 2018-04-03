@@ -4,7 +4,7 @@ This is a project for the WAKE Art show at Ship In The Woods by Kyle Stewart and
 
 ## Summary
 
-In 2017, our creative coding group, San Diego Code Kitchen, was invited to participate in a show at the Ship In The Woods gallery entitled WAKE. The theme of the show was death and the afterlife. For our project, we retrofitted an old rotary phone modern electronics to allow recording and playback of audio on the phone. Historic moments captured in audio could be dialed up by the participant using the rotary input, and dialing '0' allowed someone to record a message that would be played back with added effects for future listeners. 
+In 2017, our creative coding group, San Diego Code Kitchen, was invited to participate in a show at the Ship In The Woods gallery entitled WAKE. The theme of the show was death and the afterlife. For our project, we retrofitted an old rotary phone with modern electronics to allow recording and playback of audio on the phone. Historic moments captured in audio could be dialed up by the participant using the rotary input, and dialing '0' allowed someone to record a message that would be played back with added effects for future listeners. 
 
 An embedded linux computer provided the ability to record and playback audio. Interfacing with the 1960s technology was easier than expected and we were able to not only read the state of the handset but also the exact number dialed. Python was used to capture this input and send it onto Pure Data via OSC. From there PD was in charge of audio generation, capturing, and effects. It was chosen for its ability to run on embedded linux and the quick build time it provided us. The phone has so much more potential that we hope to build upon with future ideas.
 
